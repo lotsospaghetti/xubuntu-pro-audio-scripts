@@ -6,7 +6,7 @@ if [[ $(whoami) != 'root' ]]; then
   exit 1
 fi
 
-for i in $(ls ./sudo-scripts); do
+for i in $(ls ./root-scripts); do
   echo $i
   bash -c "./root-scripts/$i" 2> "./root-scripts/errors.log"
 done
