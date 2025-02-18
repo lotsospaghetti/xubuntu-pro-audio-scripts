@@ -23,6 +23,7 @@ qemu-system \
 linux-realtime \
 extrepo \
 flatpak \
+jackd2 \
 pipewire-jack \
 lsp-plugins \
 zynaddsubfx \
