@@ -16,7 +16,6 @@ btop \
 cpupower-gui \
 tealdeer \
 rsync \
-usbguard \
 ffmpeg \
 qpwgraph \
 qemu-system \

@@ -20,7 +20,6 @@ sudo apt install -y git
 
 ## TODOs
 
-- [ ] Actually configure usbguard o_o
 - [ ] Write a description of everything this is supposed to add/change
 - [ ] Install Flatpaks
 - [ ] Configure JACK
