@@ -1,5 +1,7 @@
 #!/bin/bash
 
+groupadd pipewire
+groupadd libvirt
 groupadd realtime
 groupadd kvm
 
@@ -17,6 +19,8 @@ while [[ -z "$target_user" ]]; do
 done
 trap - SIGHUP SIGINT
 
+gpasswd -a "$target_user" pipewire
+gpasswd -a "$target_user" libvirt
 gpasswd -a "$target_user" realtime
 gpasswd -a "$target_user" kvm
 gpasswd -a "$target_user" audio

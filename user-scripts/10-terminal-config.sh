@@ -13,5 +13,7 @@ cp ./assets/dots/fish/fish_prompt.fish $HOME/.config/fish/functions/.
 
 fish --no-config --command fish_update_completions
 
-mkdir -p $HOME/.config/kitty
-cp ./assets/dots/kitty/* $HOME/.config/kitty/.
+if [[ -n $(whereis kitty | sed 's/kitty://g') ]]; then
+  mkdir -p $HOME/.config/kitty
+  cp ./assets/dots/kitty/* $HOME/.config/kitty/.
+fi
