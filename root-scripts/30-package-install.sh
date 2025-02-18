@@ -25,6 +25,7 @@ extrepo \
 flatpak \
 jackd2 \
 pipewire-jack \
+pipewire-audio-client-libraries \
 lsp-plugins \
 zynaddsubfx \
 geonkick \
