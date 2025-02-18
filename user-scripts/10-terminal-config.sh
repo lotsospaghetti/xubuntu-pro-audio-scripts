@@ -9,7 +9,7 @@ mkdir -p $HOME/.config/fish/conf.d
 mkdir -p $HOME/.config/fish/functions
 echo 'set -g fish_greeting' > $HOME/.config/fish/conf.d/no-greeting.fish
 echo 'set -g fish_private_mode true' > $HOME/.config/fish/conf.d/private-mode.fish
-cp ./assets/dots/fish/prompt.fish $HOME/.config/fish/functions/.
+cp ./assets/dots/fish/fish_prompt.fish $HOME/.config/fish/functions/.
 
 fish --no-config --command fish_update_completions
 

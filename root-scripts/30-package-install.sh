@@ -13,6 +13,7 @@ gigolo \
 vlc \
 fish \
 btop \
+cpupower-gui \
 tealdeer \
 rsync \
 usbguard \
@@ -22,6 +23,7 @@ qemu-system \
 linux-realtime \
 extrepo \
 flatpak \
+pipewire-jack \
 lsp-plugins \
 zynaddsubfx \
 geonkick \
