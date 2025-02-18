@@ -36,6 +36,7 @@ After the last restart you can run `./20-install-flatpaks.sh` to install the app
 - [ ] Utilize Ubuntu's [autoinstall.yaml](https://canonical-subiquity.readthedocs-hosted.com/en/latest/intro-to-autoinstall.html) functionality
 - [ ] Utilize [Ansible](https://github.com/ansible/ansible)
 - [ ] Automate the installation of an entire Windows VM...?
+- [ ] Look into getting ZFS properly configured?
 
 ## Okay but like... why not just use [Ubuntu Studio](https://ubuntustudio.org/)?
 
