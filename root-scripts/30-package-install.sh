@@ -41,7 +41,7 @@ qemu-system
 
 # App repository stuff
 apt install -y \
-extrepo
+extrepo \
 flatpak
 
 # Compiler utils
