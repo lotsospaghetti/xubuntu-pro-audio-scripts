@@ -18,7 +18,7 @@ I don't personally want snapd, but if you'd like to keep it then remove `root-sc
 
 ### ubuntustudio-pwjack-config
 
-This will install the `ubuntustudio-pipewire-config` package, which provides a binary that can set the buffer size and sample rate of Pipewire, I *think* via [PAM limits](https://wiki.archlinux.org/title/Realtime_process_management#Configuring_PAM). The `root-scripts/40-optimized-params.sh` script will enable this and set it to 16 and 48000, respectively, but you may need to adjust this after the autoinstall. Just type `ubuntustudio-pwjack-config` in a terminal to get the list of possible values and input the values you want.
+This will install the `ubuntustudio-pipewire-config` package, which provides a ~~binary that can set the buffer size and sample rate of Pipewire, I *think* via [PAM limits](https://wiki.archlinux.org/title/Realtime_process_management#Configuring_PAM).~~ shell script that writes an environment variable `$PIPEWIRE_QUANTUM` to `/etc/profile.d`. The `root-scripts/40-optimized-params.sh` script will enable this setting and set it to 16 and 48000, respectively, but you may need to adjust this after the autoinstall. Just type `ubuntustudio-pwjack-config` in a terminal to get the list of possible values and input the values you want.
 
 ### Optional packages
 
@@ -48,3 +48,4 @@ Mainly wanting to learn the ins and outs of how pro audio works in Linux, learni
 - [ArchWiki page for pro audio](https://wiki.archlinux.org/title/Professional_audio)
 - [ubuntustudio-default-settings package](https://git.launchpad.net/ubuntustudio-default-settings/)
 - [Bash scripting cheat sheet](https://devhints.io/bash)
+- [ubuntustudio-pwjack-config source code](https://git.launchpad.net/ubuntu/+source/ubuntustudio-default-settings/tree/usr/sbin/ubuntustudio-pwjack-config)
