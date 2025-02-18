@@ -49,7 +49,7 @@ apt install -y \
 git \
 build-essential \
 libncurses5-dev \
-libncursesw50dev \
+libncursesw5-dev \
 libportmidi-dev
 
 # Audio plugins
